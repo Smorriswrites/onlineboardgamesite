@@ -1,6 +1,6 @@
 import {cards} from "./card"
 
-export const shuffleDeckAndTurnOrder = (numPlayers) => {
+export const buildDeck = (numPlayers) => {
     const deck = []
     const players = []
     for (let i = 0; i < 5; i++) {
